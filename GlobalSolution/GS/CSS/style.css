@@ -1,0 +1,140 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 3, 19);
+}
+
+h2{
+    text-align: center;
+    color:greenyellow;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 3, 19);
+    height: 60px;
+    align-items: center;
+}
+
+.menu{
+    color:greenyellow;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.help{
+    color:greenyellow;
+    display: flex;
+    gap: 40px;
+}
+
+.buttons--helper{
+    color:greenyellow;
+    display: flex;
+    gap: 10px;
+}
+
+.create{
+    color:green;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    
+    height: auto;
+    max-width: 80%;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.text-container {
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+h1{
+    color:greenyellow;
+    font-size: 100px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    
+}
+
+span{
+    color: green;
+}
+
+.text-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-02 h2 {
+    font-size: 40px;
+    color: greenyellow;
+}
+
+.text-02 p {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+footer{
+    color: greenyellow;
+    background-color: rgb(2, 3, 19);;
+    text-align: center;
+}
